@@ -17,3 +17,6 @@ Bean 是 Spring 应用的骨架。它们由 Spring IoC 容器管理。换句话�
 - Request：与 prototype 相同，区别在于只针对 Web 应用。每次 HTTP 请求时创建一个新实例。
 - Session：每次收到 HTTP 会话请求时由容器创建一个新实例。
 - 全局 Session：为每个门户应用（Portlet App）创建一个全局 Session Bean。
+
+
+### 3.Spring 配置注解得意义，Spring Boot 配置注解得意义，以及2中配置得共同于不同之处
